@@ -52,7 +52,7 @@ print('None:', none_var)
 print(type(none_var), '\n')
 
 # Instance examples
-isinstance('Hello world', str) # True
-isinstance(True, bool) # True
-isinstance(42, int) # True
-isinstance('John Doe', int) # False
+print(isinstance('Hello world', str)) # True
+print(isinstance(True, bool)) # True
+print(isinstance(42, int)) # True
+print(isinstance('John Doe', int)) # False
