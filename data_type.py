@@ -50,3 +50,9 @@ print(type(my_list), '\n')
 none_var = None
 print('None:', none_var)
 print(type(none_var), '\n')
+
+# Instance examples
+isinstance('Hello world', str) # True
+isinstance(True, bool) # True
+isinstance(42, int) # True
+isinstance('John Doe', int) # False
