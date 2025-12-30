@@ -53,6 +53,7 @@ greeting = 'hi'
 greeting = 'hello'
 print(greeting)
 
+# Cannot change index on string
 greeting = 'hi'
-greeting[0] = 'H'
+# greeting[0] = 'H'
 
