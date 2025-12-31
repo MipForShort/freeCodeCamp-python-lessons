@@ -42,3 +42,66 @@ print(my_str.split(), '\n')
 my_list = ['hello', 'world']
 print('join(iterable)')
 print(' '.join(my_list), '\n')
+
+# startswith(prefix) 
+# Returns a boolean indicating if a
+# string starts with the specified
+# prefix
+my_str = 'hello world'
+print('startswith(prefix)')
+print(my_str.startswith('hello'), '\n')
+
+# endswith(suffix)
+# Returns a boolean indicating if a
+# string ends with the specified
+# suffix
+my_str = 'hello world'
+print('endswith(suffix)')
+print(my_str.endswith('world'), '\n')
+
+# find(substring)
+# Returns the number of times a substring
+# appears in a string
+my_str = 'hello world'
+print('find(substring)')
+print(my_str.find('world'), '\n')
+
+# count(substring)
+# Returns the number of times
+# a substring appears in
+# a string
+my_str = 'hello world'
+print('count(substring)')
+print(my_str.count('o'), '\n')
+
+# capitalize()
+# Returns a new string with the first
+# character capitalized and the
+# other characters lowercased
+my_str = 'hello world'
+print('capitalize()')
+print(my_str.capitalize(), '\n')
+
+# isupper()
+# Returns True if all letters in the
+# string are uppercase and False
+# if not
+my_str = 'hello world'
+print('isupper()')
+print(my_str.isupper(), '\n')
+
+# islower()
+# Return True if all letters in the
+# string are lowercase and False
+# if not
+my_str = 'hello world'
+print('islower()')
+print(my_str.islower(), '\n')
+
+# title()
+# Returns a new string with the
+# first letter of each word
+# capitalized
+my_str = 'hello world'
+print('title()')
+print(my_str.title(), '\n')
