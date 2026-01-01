@@ -84,7 +84,35 @@ print(f'Result: {float_2 * float_1}\n')
 float_1 = 5.4
 float_2 = 12.0
 
-print(f'Divition\n\t{float_2}\n/\t{float_1}')
+print(f'Division\n\t{float_2}\n/\t{float_1}')
 print(f'Result: {float_2 / float_1}\n')
+
+# Adding an int to a float
+# This will make de result be a float
+
+int_1 = 56
+float_1 = 5.4
+
+print(f'Adding an int to a float\n\t{int_1}\n+\t{float_1}') 
+print(f'Result: {int_1 + float_1}\nType: {type(int_1 + float_1)}\n')
+print('This is true for all other three operations\n')
+
+# Modulo operator
+# This will return the remainder of 
+# the division of two numbers
+print('--- Modulo ---\n')
+print('This returns the remainder of two numbers divided')
+
+int_1 = 56
+int_2 = 12
+
+float_1 = 5.4
+float_2 = 12.0
+
+print(f'Modulo int\n\t{int_1}\n%\t{int_2}')
+print(f'Result: {int_1 % int_2}\n')
+
+print(f'Modulo float\n\t{float_1}\n%\t{float_2}')
+print(f'Result: {float_1 % float_2}\n')
 
 
