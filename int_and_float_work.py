@@ -101,7 +101,7 @@ print('This is true for all other three operations\n')
 # This will return the remainder of 
 # the division of two numbers
 print('--- Modulo ---\n')
-print('This returns the remainder of two numbers divided')
+print('This returns the remainder of two numbers divided\nwith %')
 
 int_1 = 56
 int_2 = 12
@@ -112,7 +112,43 @@ float_2 = 12.0
 print(f'Modulo int\n\t{int_1}\n%\t{int_2}')
 print(f'Result: {int_1 % int_2}\n')
 
-print(f'Modulo float\n\t{float_1}\n%\t{float_2}')
-print(f'Result: {float_1 % float_2}\n')
+print(f'Modulo float\n\t{float_2}\n%\t{float_1}')
+print(f'Result: {float_2 % float_1}\n')
+
+# Floor division
+# This divides two number and
+# returns the greastes int
+print('\n--- Floor Division ---')
+print('This returns the greatest of the\ndivision of two numbers with //')
+
+int_1 = 56
+int_2 = 12
+
+float_1 = 5.4
+float_2 = 12.0
+
+print(f'Floor division int\n\t{int_1}\n//\t{int_2}')
+print(f'Result: {int_1 // int_2}\n')
+
+print(f'Floor division float\n\t{float_1}\n//\t{float_2}')
+print(f'Result: {float_2 // float_1}\n')
+
+# Exponentiation
+# This raises a number to the
+# power of another
+print('\n--- Exponentiation ---\n')
+print('This raises a number to the power\nof another with **')
+
+int_1 = 56
+int_2 = 12
+
+float_1 = 5.4
+float_2 = 12.0
+
+print(f'Exponentiation int\n\t{int_1} ** {int_2}')
+print(f'Result: {int_1 ** int_2}\n')
+
+print(f'Exponentiation float\n\t{float_1} ** {float_2}')
+print(f'Result: {float_1 ** float_2}\n')
 
 
