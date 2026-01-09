@@ -19,7 +19,7 @@ SYNTAX_MENU = '''
 Option: '''
 
 SYNTAX_ACTIONS = {
-    1: lm.basic_sintax,
+    1: lm.basic_syntax,
     2: lm.another_way,
     3: lm.total_elements,
     4: lm.update_values
